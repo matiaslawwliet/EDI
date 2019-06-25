@@ -96,3 +96,10 @@ Mantenemos presionado "q" para salir de git log.
 
 ##### **Protip**
 El formato de la salida del registro es muy flexible. Por ejemplo, para generar cada confirmación en una sola línea, el comando es git log --pretty = format: "% h% an% ar -% s". Se pueden encontrar más detalles en la página de registro de git a la que se accede mediante el registro de git --help.
+
+
+##### **Paso 6 - Git Show**
+
+Mientras que git log le indica el autor y el mensaje de confirmación, para ver los cambios realizados en la confirmación, debe usar el comando git show
+
+Al igual que con otros comandos, por defecto mostrará los cambios en la confirmación HEAD. Use git show <commit-hash> para ver los cambios más antiguos.
