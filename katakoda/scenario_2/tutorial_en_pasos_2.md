@@ -1,5 +1,5 @@
 # **Espacio de definición institucional - ISFDyT210**
-### Ejercicios para Git de [KataKoda](https://www.katacoda.com/courses/git) (Scenario 1 a 5)
+### Ejercicios para Git de [KataKoda](https://www.katacoda.com/courses/git) (Scenario 2 a 5)
 #### Scenario 2 - Comitiando cambios
 #
 ##### **Paso 1 - Estado Git**
