@@ -26,3 +26,7 @@ $ git merge correcciones
 ```
 
 Para saber si las correcciones se aplicaron correctamente, agregaremos un mensaje al final de este archivo md indicando que las correcciones se realizaron de forma satisfactoria.
+
+
+
+#### **Las modificaciones de la rama correcciones se agregaron satisfactoriamente a la rama master**

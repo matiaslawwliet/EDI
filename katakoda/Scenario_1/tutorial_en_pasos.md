@@ -82,7 +82,7 @@ $ nano .gitignore
 Dentro de .gitignore escribimos 
 
 ```sh
- *tmp
+ *.tmp
 ```
 Guardamos con Ctrl + O y salimos con Ctrl + X. Finalmente creamos un archivo .tmp que no se subirá al respositorio, por ej una base de datos
 

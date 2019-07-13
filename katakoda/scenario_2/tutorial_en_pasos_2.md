@@ -6,7 +6,7 @@
 
 Como se discutió en el escenario anterior, el estado de git nos permite ver los cambios en el directorio de trabajo y el área de preparación en comparación con el repositorio.
 
-Dado el repositorio actual, las pantallas de estado de git que se han realizado en nuestro directorio de trabajo para el archivo confirmado, commit.js, pero aún no se han movido al área de preparación.
+Dado el repositorio actual, las pantallas de estado de git que se han realizado en nuestro directorio de trabajo para el archivo confirmado, committed.js, pero aún no se han movido al área de preparación.
 
 ```sh
 $ nano committed.js
@@ -70,7 +70,7 @@ $ git add .
 ```
 
 ##### **Protip**
-Si cambia el nombre o elimina archivos, deberá especificar estos archivos en el comando Agregar para que se puedan rastrear. Alternativas puede usar git mv y git rm para que git realice la acción e incluya la actualización del área de preparación.
+Si cambia el nombre o elimina archivos, deberá especificar estos archivos en el comando agregar para que se puedan rastrear. Como alternativas puede usar git mv y git rm para que git realice la acción e incluya la actualización del área de preparación.
 
 #
 ##### **Paso 4 - Staged Differences**

@@ -54,9 +54,9 @@ La primera vez que se pushea en github pedira usuario y contraseña para verific
 #
 ##### **Paso 3 - Git Pull
 
-Donde git push le permite enviar sus cambios a un repositorio remoto, git pull funciona a la inversa. git pull le permite sincronizar los cambios de un repositorio remoto en su versión local.
+Donde git push le permite enviar sus cambios a un repositor remoto, git pull funciona a la inversa. git pull le permite sincronizar los cambios de un repositorio remoto en su versión local.
 
-Los cambios del repositorio remoto se fusionan automáticamente en la rama en la que está trabajando actualmente.
+Los cambios del repositor remoto se fusionan automáticamente en la rama en la que está trabajando actualmente.
 
 ##### **Tarea**
 Tire de los cambios desde el control remoto a su rama maestra.
@@ -78,13 +78,13 @@ $ git show
 #
 ##### **Step 5 - Git Fetch**
 
-El comando git pull es una combinación de dos comandos diferentes, git fetch y git merge. Fetch descarga los cambios del repositorio remoto en una rama separada llamada remotes / <remote-name> / <remote-branch-name>. Se puede acceder a la sucursal usando git checkout.
+El comando git pull es una combinación de dos comandos diferentes, git fetch y git merge. Fetch descarga los cambios del repositorio remoto en una rama separada llamada remotes / remote-name / remote-branch-name. Se puede acceder a la sucursal usando git checkout.
 
 Usar git fetch es una excelente manera de revisar los cambios sin afectar tu rama actual. El formato de nomenclatura de las sucursales es lo suficientemente flexible como para que pueda tener varios controles remotos y sucursales con el mismo nombre y cambiar fácilmente entre ellas.
 
 El siguiente comando fusionará los cambios recuperados en el maestro.
 
-git merge remotes / <remote-name> / <remote-branch-name> master
+git merge remotes / remote-name / remote-branch-name master
 
 Cubriremos la fusión con más detalle en un escenario futuro.
 
