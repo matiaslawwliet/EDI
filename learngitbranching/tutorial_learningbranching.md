@@ -30,3 +30,8 @@ Para saber si las correcciones se aplicaron correctamente, agregaremos un mensaj
 
 
 #### **Las modificaciones de la rama correcciones se agregaron satisfactoriamente a la rama master**
+
+
+Adjunto captura de git log donde se ve claramente la rama correciones mergeada a master:
+
+![captura_ramas](https://i.imgur.com/UgvXD4W.png)
