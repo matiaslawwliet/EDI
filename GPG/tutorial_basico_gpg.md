@@ -86,10 +86,10 @@ Son servidores donde se almacenan las llaves públicas para ser utilizadas por t
     ```
     Luego encriptamos y enviamos con el siguiente comando (recordar example@dominio.com permitira buscar y tomar la key en nuestor terminal con dicho correo o bién podemos hacer uso de los primeros 8 digitos)
     ```sh 
-    $ gpg --output holamundo.txt.gpg --encrypt --recipient example@dominio.com holamundo_encryptado.txt
+    $ gpg --output holamundo.txt.gpg --encrypt --recipient example@dominio.com holamundo.txt
     ```
     ```sh 
-    $ gpg --output holamundo.txt.gpg --encrypt --recipient 00AA11BB holamundo_encryptado.txt
+    $ gpg --output holamundo.txt.gpg --encrypt --recipient 00AA11BB holamundo.txt
     ```
     *Nota: El segundo "holamundo.txt" se guardará en el lugar de trabajo del terminal con el documento original ya encriptado.
 
