@@ -96,5 +96,5 @@ Son servidores donde se almacenan las llaves públicas para ser utilizadas por t
 10. **Desencriptando documento encriptado**
     Nos pedirá la contraseña (la que introdujo en este caso el propietario de la public key cuando generó su par de claves). Una vez ingresada ya podremos leer el documento.
     ```sh 
-    $ sudo --output holamundo.txt --decrypt holamundo.txt.gpg 
+    $ sudo gpg --output holamundo.txt --decrypt holamundo.txt.gpg 
     ```
